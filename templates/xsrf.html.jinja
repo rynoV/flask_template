@@ -1,0 +1,18 @@
+{% extends "layout.html.jinja" %}
+<!doctype html>
+{% block title %}
+
+Cross-Site Request Forgery
+
+{% endblock title %}
+
+{% block content %}
+
+<h1>Cross-Site Request Forgery</h1>
+<div id="xsrf-data"></div>
+
+{% endblock content %}
+
+{% block scripts %}
+<script src="static/xsrf.js"></script>
+{% endblock scripts %}
