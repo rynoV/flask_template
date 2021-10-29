@@ -1,4 +1,4 @@
-# CPSC 329 Group 10: Vulnerability Explorer
+# Flask Website Template
 
 ## Setup
 
@@ -23,9 +23,6 @@
 
 ## Notes
 
-- XSS prevention is built-in to the templating system, see
-  [here](https://jinja.palletsprojects.com/en/2.11.x/templates/#working-with-automatic-escaping)
-  for disabling the automatic escaping.
 - See
   [here](https://flask.palletsprojects.com/en/1.1.x/patterns/sqlite3/#sqlite3)
   for an example of using SQLite with Flask.
